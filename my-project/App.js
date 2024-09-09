@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import Title from './src/components/Title'; //Só deixou eu mudar quando importei a pasta inteira
+import Title from './src/components/Title/';
 
 export default function App() {
   return (
