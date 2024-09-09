@@ -1,11 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import Title from './src/components/indextitle'; //Só deixou eu mudar quando importei a pasta inteira
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Hello, World!</Text>
-      <StatusBar style="auto" />
+      <Title/>
     </View>
   );
 }
