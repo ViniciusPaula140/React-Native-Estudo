@@ -4,7 +4,7 @@ import { View, Text } from "react-native";
 export default function Title() {
     return (
         <View>
-            <Text>Segunda-Pasta</Text>
+            <Text>Calculadora de peso e altura </Text>
         </View>
     );
 }
